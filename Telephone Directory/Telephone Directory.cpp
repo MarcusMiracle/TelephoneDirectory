@@ -1,3 +1,11 @@
+/**
+* File Name: Telephone Directory.cpp
+* Name: Miracle Marcus
+* Program Title: Telephone Directory
+* Program Goal: Create a telephone directory using linked lists
+* Date: 12th May, 2024
+*/
+
 #include <iostream>
 #include <string>
 #include "Telephone.h"
@@ -21,11 +29,10 @@ int main() {
         cout << "6. Display all subscribers" << endl;
         cout << "7. Exit" << endl;
 
-        int choice;
+        int choice, number;
         string surname, name;
-        int number;
-        cout << "Enter your choice: ";  // Prompt the user for their choice
-        cin >> choice;  // Read the user's choice
+        cout << "Enter your choice: ";
+        cin >> choice;
 
         if (choice == 1) {  // Add a new subscriber
             
@@ -129,9 +136,9 @@ int main() {
             break;  // Exit the loop to end the program
         }
         else {
-            cout << "Invalid choice. Please try again." << endl;  // Handle invalid menu choice
+            cout << "Invalid choice. Please try again." << endl;
         }
     }
 
-    return 0;  // Program exited successfully
+    return 0; 
 }

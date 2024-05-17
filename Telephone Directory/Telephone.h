@@ -1,4 +1,10 @@
-// Telephone.h
+/**
+* File Name: Telephone.h
+* Programmer: Miracle Marcus
+* Program Title: Telephone Directory
+* Program Goal: Create a telephone directory using linked lists
+* Date: 12th May, 2024
+*/
 #ifndef TELEPHONE_H
 #define TELEPHONE_H
 
